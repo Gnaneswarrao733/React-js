@@ -1,0 +1,34 @@
+/* src/TicTacToe.css */
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.board {
+    display: inline-block;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    width: 90px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #f0f0f0;
+}
+
+.restart {
+    margin-top: 50px;
+}
